@@ -1,0 +1,205 @@
+.voucher-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.create_voucher{
+    border-radius: 12px;
+    width: 160px;
+    height: 45px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    background: rgb(64, 64, 247);
+    color: white;
+    align-self: flex-end;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; 
+    text-align: center;
+    margin-bottom: 4%;
+    margin-right: 3%;
+}
+
+.create_voucher:hover{
+    cursor: pointer;
+}
+
+p{text-align: center;}
+
+.item_table{
+    display: flex;
+    flex-direction: column;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.item{
+    width: 200px;
+    height: 45px;
+    border: 0.5px solid rgb(167, 166, 166);
+    border-radius: 6px;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.head{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.modal-container {
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 1;
+    pointer-events: auto;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+
+.modal {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
+    width: 400px;
+    height: 300px;
+    padding: 2%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.modal h1 {
+    margin: 0;
+}
+
+.modal p {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.create{
+    margin: 4%;
+    margin-left: 28%;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#status_A{
+    color: green;
+}
+
+#status_A:hover{
+    cursor: pointer;
+}
+
+#status_U{
+    color: red;
+}
+
+.id{
+    width: 50px;
+}
+
+.voer{ width: 333px;}
+
+.back{
+    margin: 3%;
+    margin-left: 0%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.back:hover{
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.csb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kreate_voucher{
+    border-radius: 12px;
+    width: 130px;
+    height: 45px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border: 1px solid green;
+    background: white;
+    color: green;
+    align-self: flex-end;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; 
+    text-align: center;
+}
+
+.kreate_voucher:hover{
+    background: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+.kreate{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.freate_voucher{
+    border-radius: 12px;
+    width: 130px;
+    height: 45px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border: 1px solid red;
+    background: white;
+    color: red;
+    align-self: flex-end;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; 
+    text-align: center;
+}
+
+.freate_voucher:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.freate{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#sub_csb{
+    font-size: 1.5rem;
+    color: rgb(86, 116, 26);
+    font-weight: 800;
+    margin-top: 9%;
+    margin-bottom: 10%;
+}

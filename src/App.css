@@ -1,0 +1,20 @@
+button{
+  background: none;
+  border: 1px solid white;
+  margin: 2%;
+  color: gray;
+}
+
+button:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: gray;
+}
